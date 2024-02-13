@@ -16,9 +16,23 @@ function Home() {
     console.log(movies);
     return (
         <div className={styles.container}>
+        <div className={styles.container}>
             {loading ? (
                 <h1>Loading...</h1>
             ) : (
+                <div className={styles.movies}>
+                    {movies.map((movie) => (
+                        <Movie
+                            key={movie.id}
+                            id={movie.id}
+                            coverImg={movie.medium_cover_image}
+                            title={movie.title}
+                            year={movie.year}
+                            summary={movie.summary}
+                            genres={movie.genres}
+                        />
+                    ))}
+                </div>
                 <div className={styles.movies}>
                     {movies.map((movie) => (
                         <Movie

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/mesoftkor/react_nomad_study/static/js/main.992996f0.js",
-    "index.html": "/mesoftkor/react_nomad_study/index.html",
-    "main.992996f0.js.map": "/mesoftkor/react_nomad_study/static/js/main.992996f0.js.map"
+    "main.js": "/react_nomad_study/static/js/main.bd16879c.js",
+    "index.html": "/react_nomad_study/index.html",
+    "main.bd16879c.js.map": "/react_nomad_study/static/js/main.bd16879c.js.map"
   },
   "entrypoints": [
-    "static/js/main.992996f0.js"
+    "static/js/main.bd16879c.js"
   ]
 }
